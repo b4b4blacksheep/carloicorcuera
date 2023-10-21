@@ -1,0 +1,153 @@
+* {
+	background-color: #F1EFE7 !important;
+}
+
+.navbar {
+	background-color: #F1EFE7 !important;
+}
+.navbar-logo {
+	font-family: 'League Spartan', sans-serif;
+	  font-weight: 900;
+}
+
+.bg-banner {
+	background-color: #F1EFE7 !important;
+	height: 90vh;
+}
+
+.banner-name {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.banner-text {
+	font-family: 'Poppins', sans-serif;
+}
+
+.popover-header {
+	background-color: #F48A6F !important;
+}
+
+.popover-body {
+	background-color: #F1EFE7 !important;
+}
+
+.footer {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+a {	
+	color: #040406 !important;
+}
+
+p > a {
+/*	color: #040406 !important;*/
+	color: #212A3E !important;
+	font-weight: bold !important;
+}
+
+p {
+/*	color: #040406 !important;*/
+	color: #7D7C7C !important;
+}
+.projects-name {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 64px;
+}
+
+
+/*Chathead*/
+/*.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.chat-head {
+  position: absolute;
+  bottom: 70;
+  left: 85%;
+  width: 45%; 
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .chat-head {
+    display: none;
+  }
+}
+*/
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.chat-head {
+  position: absolute;
+  bottom: 70; /* Added px, assuming you meant pixels */
+  left: 85%;  /* Adjust based on what suits your design */
+  width: 45%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  transition-delay: 3s;
+}
+
+.show-chat-head {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .chat-head {
+    display: none;
+  }
+}
+
+/*Project*/
+/* Hide navigation icons for small screens */
+@media (max-width: 767px) {
+  .hide-on-small {
+    display: none;
+  }
+}
+
+.banner-link {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 12px;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
