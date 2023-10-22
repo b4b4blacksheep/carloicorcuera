@@ -1,9 +1,8 @@
-import { Container, Nav, Navbar, NavDropdown, Button, Popover, OverlayTrigger } from 'react-bootstrap';
-import { FaPhoneAlt, FaRegFilePdf, FaRegFileAlt } from 'react-icons/fa';
+import { Container, Nav, Navbar, Button, Popover, OverlayTrigger } from 'react-bootstrap';
+import { FaPhoneAlt, FaRegFilePdf } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 import Resume from "../assets/carlo-corcuera-resume.pdf";
-import Carlo from '../assets/1-modified.png';
 
 import './style.css'
 
@@ -19,7 +18,7 @@ export default function AppNavbar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Button variant="link" className="me-auto">
-              <a href={Resume} download="carlo-corcuera.pdf">
+              <a href={Resume} download="carlo-corcuera-resume.pdf">
               <FaRegFilePdf title="carlo-corcuera-resume" color="black" size="1.5em" />
               </a>   
               </Button>
